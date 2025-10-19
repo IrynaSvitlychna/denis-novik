@@ -1,0 +1,174 @@
+:root {
+  --black: #070707;
+  --text: #828282;
+  --bg-gray: #f6f6f6;
+}
+
+body {
+  width: 1440px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--black);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.container {
+  width: 970px;
+  margin-left: 235px;
+  margin-right: 235px;
+  text-align: center;
+}
+
+.header {
+  height: 80px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  .nav {
+    display: flex;
+    margin: auto;
+    width: 496px;
+    justify-content: space-between;
+    color: var(--text);
+
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+
+  ul li:first-child {
+    color: var(--black);
+  }
+}
+
+.hero {
+  padding-top: 12px;
+
+  .container-hero {
+    text-align: left;
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.about {
+  background-color: var(--bg-gray);
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .container-about {
+    text-align: center;
+
+    h2 {
+      margin-left: 372px;
+      margin-right: 372px;
+      margin-bottom: 50px;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .container-skills {
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+
+    .card-skills {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+
+      p {
+        margin-bottom: 60px;
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 14px;
+        color: var(--text);
+      }
+
+      li:last-child p {
+        margin-bottom: 80px;
+      }
+    }
+  }
+}
+
+.portfolio {
+  background-color: var(--bg-gray);
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  li:nth-of-type(odd) {
+    margin-bottom: 40px;
+  }
+
+  li:nth-of-type(even) {
+    margin-bottom: 70px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+.footer {
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  button {
+    width: 180px;
+    height: 44px;
+    background-color: var(--black);
+    color: #fff;
+    border-radius: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+
+  div p:last-child {
+    color: var(--text);
+    font-size: 14px;
+  }
+}
