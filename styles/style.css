@@ -46,6 +46,14 @@ h2 {
   ul li:first-child {
     color: var(--black);
   }
+
+  hr {
+    background-color: var(--text);
+    height: 2px;
+    max-width: 970px;
+    margin: auto;
+    margin-block-start: 25px;
+  }
 }
 
 .hero {
