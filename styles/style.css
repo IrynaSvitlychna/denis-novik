@@ -41,10 +41,10 @@ h2 {
       font-size: 18px;
       font-weight: 400;
     }
-  }
 
-  ul li:first-child {
-    color: var(--black);
+    a:hover {
+      color: var(--black);
+    }
   }
 
   hr {
@@ -169,12 +169,26 @@ h2 {
     margin-bottom: 30px;
   }
 
+  button:hover {
+    background-color: var(--text);
+    border: var(--text);
+    color: var(--black);
+  }
+
   .social {
     display: flex;
     justify-content: space-between;
     width: 310px;
     margin: auto;
     margin-bottom: 60px;
+
+    img {
+      transition: opacity 0.3s ease;
+    }
+
+    img:hover {
+      opacity: 0.5;
+    }
   }
 
   div p:last-child {
